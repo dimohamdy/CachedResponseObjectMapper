@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CachedResponseObjectMapper"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "A short description of CachedResponseObjectMapper."
 
 # This description is used to generate tags and improve search results.
@@ -17,24 +17,23 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  Mapper the cached responce Json to object 
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CachedResponseObjectMapper"
+  s.homepage         = "https://github.com/dimohamdy/CachedResponseObjectMapper"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "dimohamdy" => "dimo.hamdy@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CachedResponseObjectMapper.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/dimohamdy/CachedResponseObjectMapper.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/dimohamdy'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'CachedResponseObjectMapper' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = ''
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'ObjectMapper', '~> 1.1'
 end

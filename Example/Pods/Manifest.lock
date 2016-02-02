@@ -1,0 +1,14 @@
+PODS:
+  - CachedResponseObjectMapper (0.1.0)
+
+DEPENDENCIES:
+  - CachedResponseObjectMapper (from `../`)
+
+EXTERNAL SOURCES:
+  CachedResponseObjectMapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CachedResponseObjectMapper: d5cae200429b1083bc3fea98eac20e4ecf33c137
+
+COCOAPODS: 0.39.0

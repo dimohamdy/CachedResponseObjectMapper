@@ -1,0 +1,6 @@
+framework module Pods_CachedResponseObjectMapper_Tests {
+  umbrella header "Pods-CachedResponseObjectMapper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

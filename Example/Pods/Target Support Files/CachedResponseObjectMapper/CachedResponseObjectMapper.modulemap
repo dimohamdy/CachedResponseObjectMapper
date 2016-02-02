@@ -1,0 +1,6 @@
+framework module CachedResponseObjectMapper {
+  umbrella header "CachedResponseObjectMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

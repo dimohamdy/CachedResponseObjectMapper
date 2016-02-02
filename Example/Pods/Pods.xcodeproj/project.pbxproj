@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EAC6825C07FBCDE82A1CE28A2767976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		71E84A4892E6829A32F474D8D7A018BF /* Pods-CachedResponseObjectMapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D611B3C3E63E7B8DD473422A3C0CF73 /* Pods-CachedResponseObjectMapper_Tests-dummy.m */; };
+		743DCDB53053A32D8CE855084FA94650 /* Pods-CachedResponseObjectMapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CC2024B509F42564F0EE14DDE02459 /* Pods-CachedResponseObjectMapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93AFBBD4A0DD5FA0743F1F333155B738 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7795D573E4194B89582E036EB1AEEA1 /* ReplaceMe.swift */; };
+		9F0B24F7BE79B21D109E12E379C320C1 /* CachedResponseObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C789C65C24D26657EE91FB33D574F27B /* CachedResponseObjectMapper-dummy.m */; };
+		CA80FDECC8A9B5107427634C0106D11C /* CachedResponseObjectMapper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C7DD9CF414EF4819F8BFC802C290C76 /* CachedResponseObjectMapper.bundle */; };
+		DD7272ADD1E3CCC8B0AA3B4A07DE2DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FC947FDCCF464787F7BEF90CE111E290 /* CachedResponseObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F3F3795FB4CA0B9C23323D837D430A /* CachedResponseObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AC152B7EBCAE789D21AD6E97A0C2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F707FEF4F78B59A8452EEDDDAD18EA;
+			remoteInfo = CachedResponseObjectMapper;
+		};
+		9DDCE988BB38BFCE1577889712C3EF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D5F07777EEBFB262D421D373C495B8;
+			remoteInfo = "CachedResponseObjectMapper-CachedResponseObjectMapper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059D98B7EE0A9E4AFDD0D88C3EEEC8DD /* Pods-CachedResponseObjectMapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CachedResponseObjectMapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07CC2024B509F42564F0EE14DDE02459 /* Pods-CachedResponseObjectMapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CachedResponseObjectMapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C7DD9CF414EF4819F8BFC802C290C76 /* CachedResponseObjectMapper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CachedResponseObjectMapper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F16184F27BD69039BB83C5D2D9F29B /* Pods_CachedResponseObjectMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CachedResponseObjectMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48F3F3795FB4CA0B9C23323D837D430A /* CachedResponseObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CachedResponseObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		5234D5CC37FAD9E3F566F7DDBA2C4988 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CachedResponseObjectMapper.xcconfig; sourceTree = "<group>"; };
+		6CF8FB0BBD4563BD7D34E4E8A39DA2E7 /* CachedResponseObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CachedResponseObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		794C03307FFA2B26A2B69087D4E77A7F /* Pods-CachedResponseObjectMapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CachedResponseObjectMapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		969D012B3ACC2E9F46DEEC8C2AAC3909 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D611B3C3E63E7B8DD473422A3C0CF73 /* Pods-CachedResponseObjectMapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CachedResponseObjectMapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		9E7104295D68D80FF1FA90B72C0A6051 /* Pods-CachedResponseObjectMapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CachedResponseObjectMapper_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1B2F522C0645A2FF24F624791F1A52A /* Pods-CachedResponseObjectMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CachedResponseObjectMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7543E0DDAFE61E0BF42B373CBA5EF39 /* Pods-CachedResponseObjectMapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CachedResponseObjectMapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C789C65C24D26657EE91FB33D574F27B /* CachedResponseObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CachedResponseObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		D108B735360412B0A1200D08B3AE971F /* Pods-CachedResponseObjectMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CachedResponseObjectMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D99C1DC17AE4E31E073C053C10297355 /* Pods-CachedResponseObjectMapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CachedResponseObjectMapper_Tests.modulemap"; sourceTree = "<group>"; };
+		E19FCFD514821FBC497EAF67E3265DFF /* CachedResponseObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CachedResponseObjectMapper.modulemap; sourceTree = "<group>"; };
+		E91806BEA0AD89B7A076142390846B6E /* CachedResponseObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CachedResponseObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7795D573E4194B89582E036EB1AEEA1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396A8B59F851482C029E4791D3BE053B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAC6825C07FBCDE82A1CE28A2767976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F34626E79EB9242527496E55CDD0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896B4D58D16D8A94B7F9BCFC6BEE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7272ADD1E3CCC8B0AA3B4A07DE2DCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1348C262CFFC6DC8BDC5CBC4AEC6EFC5 /* Pods-CachedResponseObjectMapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				969D012B3ACC2E9F46DEEC8C2AAC3909 /* Info.plist */,
+				D99C1DC17AE4E31E073C053C10297355 /* Pods-CachedResponseObjectMapper_Tests.modulemap */,
+				059D98B7EE0A9E4AFDD0D88C3EEEC8DD /* Pods-CachedResponseObjectMapper_Tests-acknowledgements.markdown */,
+				C7543E0DDAFE61E0BF42B373CBA5EF39 /* Pods-CachedResponseObjectMapper_Tests-acknowledgements.plist */,
+				9D611B3C3E63E7B8DD473422A3C0CF73 /* Pods-CachedResponseObjectMapper_Tests-dummy.m */,
+				794C03307FFA2B26A2B69087D4E77A7F /* Pods-CachedResponseObjectMapper_Tests-frameworks.sh */,
+				9E7104295D68D80FF1FA90B72C0A6051 /* Pods-CachedResponseObjectMapper_Tests-resources.sh */,
+				07CC2024B509F42564F0EE14DDE02459 /* Pods-CachedResponseObjectMapper_Tests-umbrella.h */,
+				A1B2F522C0645A2FF24F624791F1A52A /* Pods-CachedResponseObjectMapper_Tests.debug.xcconfig */,
+				D108B735360412B0A1200D08B3AE971F /* Pods-CachedResponseObjectMapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-CachedResponseObjectMapper_Tests";
+			path = "Target Support Files/Pods-CachedResponseObjectMapper_Tests";
+			sourceTree = "<group>";
+		};
+		588FF0D0C065B58E25E8E940E5626548 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA22DF2A31D9194C1B20708B260BDCF /* CachedResponseObjectMapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				588FF0D0C065B58E25E8E940E5626548 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A141F6FA8D6DE9A462A9C15E9EBF6543 /* Products */,
+				A64E478625CF2DF523DD600F7001E69D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A141F6FA8D6DE9A462A9C15E9EBF6543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7DD9CF414EF4819F8BFC802C290C76 /* CachedResponseObjectMapper.bundle */,
+				E91806BEA0AD89B7A076142390846B6E /* CachedResponseObjectMapper.framework */,
+				20F16184F27BD69039BB83C5D2D9F29B /* Pods_CachedResponseObjectMapper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64E478625CF2DF523DD600F7001E69D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1348C262CFFC6DC8BDC5CBC4AEC6EFC5 /* Pods-CachedResponseObjectMapper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A71FBF91FB7C4283C5E0ED42E2EFDCE1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA1D09F997CA99C9C4B7555AD3777 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE1EF937521EFC275AA34830A61F5B4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19FCFD514821FBC497EAF67E3265DFF /* CachedResponseObjectMapper.modulemap */,
+				5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */,
+				C789C65C24D26657EE91FB33D574F27B /* CachedResponseObjectMapper-dummy.m */,
+				6CF8FB0BBD4563BD7D34E4E8A39DA2E7 /* CachedResponseObjectMapper-prefix.pch */,
+				48F3F3795FB4CA0B9C23323D837D430A /* CachedResponseObjectMapper-umbrella.h */,
+				5234D5CC37FAD9E3F566F7DDBA2C4988 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CachedResponseObjectMapper";
+			sourceTree = "<group>";
+		};
+		F7ADA1D09F997CA99C9C4B7555AD3777 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7795D573E4194B89582E036EB1AEEA1 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FFA22DF2A31D9194C1B20708B260BDCF /* CachedResponseObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				A71FBF91FB7C4283C5E0ED42E2EFDCE1 /* Pod */,
+				EE1EF937521EFC275AA34830A61F5B4C /* Support Files */,
+			);
+			name = CachedResponseObjectMapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A761EF1550D96E727CB1DB890313D3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC947FDCCF464787F7BEF90CE111E290 /* CachedResponseObjectMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E051114038194DA93145E880D5F59BAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743DCDB53053A32D8CE855084FA94650 /* Pods-CachedResponseObjectMapper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09F707FEF4F78B59A8452EEDDDAD18EA /* CachedResponseObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8771D364C2AE7FEB3415CCCC8742019B /* Build configuration list for PBXNativeTarget "CachedResponseObjectMapper" */;
+			buildPhases = (
+				8D1308A6CE038B18B8F058C9C19EB453 /* Sources */,
+				396A8B59F851482C029E4791D3BE053B /* Frameworks */,
+				C725FA9F0DB3AE2CEC79B05CA3C5BDF5 /* Resources */,
+				1A761EF1550D96E727CB1DB890313D3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0D3826A962A5229AA388CA20E6FBE6 /* PBXTargetDependency */,
+			);
+			name = CachedResponseObjectMapper;
+			productName = CachedResponseObjectMapper;
+			productReference = E91806BEA0AD89B7A076142390846B6E /* CachedResponseObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3D5F07777EEBFB262D421D373C495B8 /* CachedResponseObjectMapper-CachedResponseObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415CD33B37E5C886046BC5EC023C4DE8 /* Build configuration list for PBXNativeTarget "CachedResponseObjectMapper-CachedResponseObjectMapper" */;
+			buildPhases = (
+				315C87FF59942BE18BFF6CC55E9A11EB /* Sources */,
+				A6F34626E79EB9242527496E55CDD0CF /* Frameworks */,
+				4C2302895D296164049270BD3CB15F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CachedResponseObjectMapper-CachedResponseObjectMapper";
+			productName = "CachedResponseObjectMapper-CachedResponseObjectMapper";
+			productReference = 0C7DD9CF414EF4819F8BFC802C290C76 /* CachedResponseObjectMapper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EBCF6E355CAAC0F03C2996C9A477EF9C /* Pods-CachedResponseObjectMapper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CA42A60F92C60AE8B5EE96EE1B5948 /* Build configuration list for PBXNativeTarget "Pods-CachedResponseObjectMapper_Tests" */;
+			buildPhases = (
+				5BAE4F16B2DBBD4C0BC8CDECCA3108E9 /* Sources */,
+				C896B4D58D16D8A94B7F9BCFC6BEE943 /* Frameworks */,
+				E051114038194DA93145E880D5F59BAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352B05DB0626F8AE302F39FBE958806C /* PBXTargetDependency */,
+			);
+			name = "Pods-CachedResponseObjectMapper_Tests";
+			productName = "Pods-CachedResponseObjectMapper_Tests";
+			productReference = 20F16184F27BD69039BB83C5D2D9F29B /* Pods_CachedResponseObjectMapper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A141F6FA8D6DE9A462A9C15E9EBF6543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F707FEF4F78B59A8452EEDDDAD18EA /* CachedResponseObjectMapper */,
+				A3D5F07777EEBFB262D421D373C495B8 /* CachedResponseObjectMapper-CachedResponseObjectMapper */,
+				EBCF6E355CAAC0F03C2996C9A477EF9C /* Pods-CachedResponseObjectMapper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2302895D296164049270BD3CB15F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C725FA9F0DB3AE2CEC79B05CA3C5BDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA80FDECC8A9B5107427634C0106D11C /* CachedResponseObjectMapper.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315C87FF59942BE18BFF6CC55E9A11EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAE4F16B2DBBD4C0BC8CDECCA3108E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E84A4892E6829A32F474D8D7A018BF /* Pods-CachedResponseObjectMapper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1308A6CE038B18B8F058C9C19EB453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0B24F7BE79B21D109E12E379C320C1 /* CachedResponseObjectMapper-dummy.m in Sources */,
+				93AFBBD4A0DD5FA0743F1F333155B738 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		352B05DB0626F8AE302F39FBE958806C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CachedResponseObjectMapper;
+			target = 09F707FEF4F78B59A8452EEDDDAD18EA /* CachedResponseObjectMapper */;
+			targetProxy = 59AC152B7EBCAE789D21AD6E97A0C2DA /* PBXContainerItemProxy */;
+		};
+		FE0D3826A962A5229AA388CA20E6FBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CachedResponseObjectMapper-CachedResponseObjectMapper";
+			target = A3D5F07777EEBFB262D421D373C495B8 /* CachedResponseObjectMapper-CachedResponseObjectMapper */;
+			targetProxy = 9DDCE988BB38BFCE1577889712C3EF57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0886653E66C1ED13858DA2BBEC3D798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D108B735360412B0A1200D08B3AE971F /* Pods-CachedResponseObjectMapper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CachedResponseObjectMapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CachedResponseObjectMapper_Tests/Pods-CachedResponseObjectMapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CachedResponseObjectMapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B138FB777EEAA161A6AF652013B9D167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CachedResponseObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B886C3049FAC67C7BF376B834B28C221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CachedResponseObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B9FD834443E023B663DD9A8BAF8610AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CachedResponseObjectMapper/CachedResponseObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CachedResponseObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CachedResponseObjectMapper/CachedResponseObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CachedResponseObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C64139B5A2182429952546D9DC42E971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E53B4113F6AD976D5A22AF53A3E1DEC /* CachedResponseObjectMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CachedResponseObjectMapper/CachedResponseObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CachedResponseObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CachedResponseObjectMapper/CachedResponseObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CachedResponseObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F111509AE7FD4666370EFA8779CA38A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B2F522C0645A2FF24F624791F1A52A /* Pods-CachedResponseObjectMapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CachedResponseObjectMapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CachedResponseObjectMapper_Tests/Pods-CachedResponseObjectMapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CachedResponseObjectMapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415CD33B37E5C886046BC5EC023C4DE8 /* Build configuration list for PBXNativeTarget "CachedResponseObjectMapper-CachedResponseObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B138FB777EEAA161A6AF652013B9D167 /* Debug */,
+				B886C3049FAC67C7BF376B834B28C221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CA42A60F92C60AE8B5EE96EE1B5948 /* Build configuration list for PBXNativeTarget "Pods-CachedResponseObjectMapper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F111509AE7FD4666370EFA8779CA38A4 /* Debug */,
+				0886653E66C1ED13858DA2BBEC3D798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8771D364C2AE7FEB3415CCCC8742019B /* Build configuration list for PBXNativeTarget "CachedResponseObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64139B5A2182429952546D9DC42E971 /* Debug */,
+				B9FD834443E023B663DD9A8BAF8610AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
