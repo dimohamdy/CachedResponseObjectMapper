@@ -1,0 +1,6 @@
+framework module DLHamburguerMenu {
+  umbrella header "DLHamburguerMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

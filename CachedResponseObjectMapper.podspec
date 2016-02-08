@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CachedResponseObjectMapper"
   s.version          = "1.0.0"
-  s.summary          = "A short description of CachedResponseObjectMapper."
+  s.summary          = "Mapper the cached responce Json to object"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-  Mapper the cached responce Json to object 
+  Mapper the cached responce Json to object that caches using NSURLCache
                        DESC
 
   s.homepage         = "https://github.com/dimohamdy/CachedResponseObjectMapper"

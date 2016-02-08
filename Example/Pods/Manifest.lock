@@ -1,14 +1,54 @@
 PODS:
-  - CachedResponseObjectMapper (0.1.0)
+  - Alamofire (3.1.5)
+  - AlamofireObjectMapper (2.1.0):
+    - Alamofire (~> 3.1.0)
+    - ObjectMapper (~> 1.0)
+  - CachedResponseObjectMapper (1.0.0):
+    - ObjectMapper (~> 1.1)
+  - CHTCollectionViewWaterfallLayout (0.9.2)
+  - DLHamburguerMenu (1.0.6)
+  - JLToast (1.3.5)
+  - Kingfisher (1.9.3)
+  - ObjectMapper (1.1.1)
+  - ReachabilitySwift (2.3.3)
+  - SwiftOverlays (1.0)
+  - UIScrollView-InfiniteScroll (0.7.3)
+  - ZFDragableModalTransition (0.6)
 
 DEPENDENCIES:
-  - CachedResponseObjectMapper (from `../`)
+  - Alamofire (~> 3.0)
+  - AlamofireObjectMapper (~> 2.1)
+  - CachedResponseObjectMapper
+  - CHTCollectionViewWaterfallLayout
+  - DLHamburguerMenu
+  - JLToast (~> 1.3)
+  - Kingfisher (~> 1.9)
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - SwiftOverlays (~> 1.0)
+  - UIScrollView-InfiniteScroll
+  - ZFDragableModalTransition
 
 EXTERNAL SOURCES:
-  CachedResponseObjectMapper:
-    :path: ../
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift
+
+CHECKOUT OPTIONS:
+  ReachabilitySwift:
+    :commit: ec4b33a7e439e5b203b0cae0f71383ca803ad031
+    :git: https://github.com/ashleymills/Reachability.swift
 
 SPEC CHECKSUMS:
-  CachedResponseObjectMapper: d5cae200429b1083bc3fea98eac20e4ecf33c137
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  AlamofireObjectMapper: 24097576202064f8b0a583452dd934064f78dc0e
+  CachedResponseObjectMapper: 176b39050e7d96429c75d088d666cbfcaae17eb2
+  CHTCollectionViewWaterfallLayout: 43232febcb3e4d3985cd758718cbe499b21b822f
+  DLHamburguerMenu: 093ca1dab2d84d31f6892674aace6420d0b74a08
+  JLToast: 08024c173a36e4d747607593d59cc17f3c3b09f1
+  Kingfisher: 9e37d2a78a082dc123bfe8a16de65de85518daae
+  ObjectMapper: 4143abed1dbd49b73d75092fe8fa1c88ed6434b7
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  SwiftOverlays: 6a47bab3ed2784c378f07b275269f9e8231526e6
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
+  ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
 COCOAPODS: 0.39.0

@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DAFFB4A1C5D9D2200A6D547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB3A1C5D9D2200A6D547 /* AppDelegate.swift */; };
+		3DAFFB4B1C5D9D2200A6D547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAFFB3B1C5D9D2200A6D547 /* Assets.xcassets */; };
+		3DAFFB4C1C5D9D2200A6D547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAFFB3C1C5D9D2200A6D547 /* LaunchScreen.storyboard */; };
+		3DAFFB4D1C5D9D2200A6D547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAFFB3E1C5D9D2200A6D547 /* Main.storyboard */; };
+		3DAFFB4F1C5D9D2200A6D547 /* DLDemoMainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB411C5D9D2200A6D547 /* DLDemoMainContentViewController.swift */; };
+		3DAFFB501C5D9D2200A6D547 /* DLDemoMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB421C5D9D2200A6D547 /* DLDemoMenuViewController.swift */; };
+		3DAFFB511C5D9D2200A6D547 /* DLDemoRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB431C5D9D2200A6D547 /* DLDemoRootViewController.swift */; };
+		3DAFFB521C5D9D2200A6D547 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DAFFB451C5D9D2200A6D547 /* Info.plist */; };
+		3DAFFB531C5D9D2200A6D547 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB461C5D9D2200A6D547 /* Product.swift */; };
+		3DAFFB541C5D9D2200A6D547 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB471C5D9D2200A6D547 /* ProductCollectionViewCell.swift */; };
+		3DAFFB551C5D9D2200A6D547 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFFB481C5D9D2200A6D547 /* ProductDetailViewController.swift */; };
+		F2479ED2FF67C89E9C3F713B /* Pods_GrapesnBerriesTaskSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B46663F66137B8395E91659 /* Pods_GrapesnBerriesTaskSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DA61DAA1C4B6DEE002136D1 /* GrapesnBerriesTaskSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrapesnBerriesTaskSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAFFB3A1C5D9D2200A6D547 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAFFB3B1C5D9D2200A6D547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DAFFB3D1C5D9D2200A6D547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DAFFB3F1C5D9D2200A6D547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DAFFB411C5D9D2200A6D547 /* DLDemoMainContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoMainContentViewController.swift; sourceTree = "<group>"; };
+		3DAFFB421C5D9D2200A6D547 /* DLDemoMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoMenuViewController.swift; sourceTree = "<group>"; };
+		3DAFFB431C5D9D2200A6D547 /* DLDemoRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoRootViewController.swift; sourceTree = "<group>"; };
+		3DAFFB451C5D9D2200A6D547 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAFFB461C5D9D2200A6D547 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3DAFFB471C5D9D2200A6D547 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DAFFB481C5D9D2200A6D547 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		3DAFFB5B1C5D9FF400A6D547 /* GrapesnBerriesTaskSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrapesnBerriesTaskSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B46663F66137B8395E91659 /* Pods_GrapesnBerriesTaskSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrapesnBerriesTaskSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2BE2416CD08B088CB45B8B /* Pods-GrapesnBerriesTaskSwift.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapesnBerriesTaskSwift.debug copy.xcconfig"; path = "Pods/Target Support Files/Pods-GrapesnBerriesTaskSwift/Pods-GrapesnBerriesTaskSwift.debug copy.xcconfig"; sourceTree = "<group>"; };
+		BC4281E744D15F35AFFC0031 /* Pods-GrapesnBerriesTaskSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapesnBerriesTaskSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrapesnBerriesTaskSwift/Pods-GrapesnBerriesTaskSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA61DA71C4B6DEE002136D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2479ED2FF67C89E9C3F713B /* Pods_GrapesnBerriesTaskSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FA68F0A40F6D073F4AC091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC4281E744D15F35AFFC0031 /* Pods-GrapesnBerriesTaskSwift.debug.xcconfig */,
+				BC2BE2416CD08B088CB45B8B /* Pods-GrapesnBerriesTaskSwift.debug copy.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DA61DA11C4B6DEE002136D1 = {
+			isa = PBXGroup;
+			children = (
+				3DAFFB391C5D9D2200A6D547 /* GrapesnBerriesTaskSwift */,
+				3DA61DAB1C4B6DEE002136D1 /* Products */,
+				28FA68F0A40F6D073F4AC091 /* Pods */,
+				E0646B105F4484287193D00D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA61DAB1C4B6DEE002136D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA61DAA1C4B6DEE002136D1 /* GrapesnBerriesTaskSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAFFB391C5D9D2200A6D547 /* GrapesnBerriesTaskSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3DAFFB3A1C5D9D2200A6D547 /* AppDelegate.swift */,
+				3DAFFB3B1C5D9D2200A6D547 /* Assets.xcassets */,
+				3DAFFB3C1C5D9D2200A6D547 /* LaunchScreen.storyboard */,
+				3DAFFB3E1C5D9D2200A6D547 /* Main.storyboard */,
+				3DAFFB411C5D9D2200A6D547 /* DLDemoMainContentViewController.swift */,
+				3DAFFB421C5D9D2200A6D547 /* DLDemoMenuViewController.swift */,
+				3DAFFB431C5D9D2200A6D547 /* DLDemoRootViewController.swift */,
+				3DAFFB451C5D9D2200A6D547 /* Info.plist */,
+				3DAFFB461C5D9D2200A6D547 /* Product.swift */,
+				3DAFFB471C5D9D2200A6D547 /* ProductCollectionViewCell.swift */,
+				3DAFFB481C5D9D2200A6D547 /* ProductDetailViewController.swift */,
+				3DAFFB5B1C5D9FF400A6D547 /* GrapesnBerriesTaskSwift-Bridging-Header.h */,
+			);
+			path = GrapesnBerriesTaskSwift;
+			sourceTree = "<group>";
+		};
+		E0646B105F4484287193D00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B46663F66137B8395E91659 /* Pods_GrapesnBerriesTaskSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA61DA91C4B6DEE002136D1 /* GrapesnBerriesTaskSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA61DBE1C4B6DEE002136D1 /* Build configuration list for PBXNativeTarget "GrapesnBerriesTaskSwift" */;
+			buildPhases = (
+				3DA61DA61C4B6DEE002136D1 /* Sources */,
+				3DA61DA71C4B6DEE002136D1 /* Frameworks */,
+				3DA61DA81C4B6DEE002136D1 /* Resources */,
+				20D222CB56EAFE030280F462 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrapesnBerriesTaskSwift;
+			productName = HekmaWMwaza;
+			productReference = 3DA61DAA1C4B6DEE002136D1 /* GrapesnBerriesTaskSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA61DA21C4B6DEE002136D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3DA61DA91C4B6DEE002136D1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3DA61DA51C4B6DEE002136D1 /* Build configuration list for PBXProject "GrapesnBerriesTaskSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA61DA11C4B6DEE002136D1;
+			productRefGroup = 3DA61DAB1C4B6DEE002136D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA61DA91C4B6DEE002136D1 /* GrapesnBerriesTaskSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA61DA81C4B6DEE002136D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAFFB521C5D9D2200A6D547 /* Info.plist in Resources */,
+				3DAFFB4D1C5D9D2200A6D547 /* Main.storyboard in Resources */,
+				3DAFFB4B1C5D9D2200A6D547 /* Assets.xcassets in Resources */,
+				3DAFFB4C1C5D9D2200A6D547 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D222CB56EAFE030280F462 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrapesnBerriesTaskSwift/Pods-GrapesnBerriesTaskSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA61DA61C4B6DEE002136D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAFFB4F1C5D9D2200A6D547 /* DLDemoMainContentViewController.swift in Sources */,
+				3DAFFB541C5D9D2200A6D547 /* ProductCollectionViewCell.swift in Sources */,
+				3DAFFB501C5D9D2200A6D547 /* DLDemoMenuViewController.swift in Sources */,
+				3DAFFB511C5D9D2200A6D547 /* DLDemoRootViewController.swift in Sources */,
+				3DAFFB551C5D9D2200A6D547 /* ProductDetailViewController.swift in Sources */,
+				3DAFFB4A1C5D9D2200A6D547 /* AppDelegate.swift in Sources */,
+				3DAFFB531C5D9D2200A6D547 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DAFFB3C1C5D9D2200A6D547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAFFB3D1C5D9D2200A6D547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DAFFB3E1C5D9D2200A6D547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAFFB3F1C5D9D2200A6D547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA61DBC1C4B6DEE002136D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA61DBF1C4B6DEE002136D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4281E744D15F35AFFC0031 /* Pods-GrapesnBerriesTaskSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GrapesnBerriesTaskSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.GrapesnBerriesTaskSwift;
+				PRODUCT_NAME = GrapesnBerriesTaskSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "GrapesnBerriesTaskSwift/GrapesnBerriesTaskSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAFFB5F1C5DA61900A6D547 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug copy";
+		};
+		3DAFFB601C5DA61900A6D547 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2BE2416CD08B088CB45B8B /* Pods-GrapesnBerriesTaskSwift.debug copy.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GrapesnBerriesTaskSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.GrapesnBerriesTaskSwift;
+				PRODUCT_NAME = GrapesnBerriesTaskSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "GrapesnBerriesTaskSwift/GrapesnBerriesTaskSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug copy";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA61DA51C4B6DEE002136D1 /* Build configuration list for PBXProject "GrapesnBerriesTaskSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA61DBC1C4B6DEE002136D1 /* Debug */,
+				3DAFFB5F1C5DA61900A6D547 /* Debug copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DA61DBE1C4B6DEE002136D1 /* Build configuration list for PBXNativeTarget "GrapesnBerriesTaskSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA61DBF1C4B6DEE002136D1 /* Debug */,
+				3DAFFB601C5DA61900A6D547 /* Debug copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA61DA21C4B6DEE002136D1 /* Project object */;
+}
